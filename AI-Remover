@@ -10,4 +10,5 @@ duckduckgo.com##li:has-text(/Search Assist/)
 duckduckgo.com##li:has-text(/Duck.ai/)
 
 www.youtube.com##button:has-text(/Ask/)
+www.youtube.com###expandable-metadata:has-text(/Summary/)
 www.youtube.com##ytd-rich-section-renderer:has-text(/ask for videos/i)
