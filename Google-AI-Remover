@@ -1,6 +1,0 @@
-! Title: Google AI Remover
-
-www.google.com##div[data-hveid]:has(h1:has-text(/AI Overview/))
-www.google.com##div[role="listitem"]:has-text(/AI Mode/i)
-www.google.com##div[class^="A6"]:has-text(/AI Overview/i)
-www.google.com##button:has-text(/ai mode/i)
