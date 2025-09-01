@@ -3,31 +3,58 @@
 ! Youtube Element Blocks
 www.youtube.com##.autoplay-bar
 www.youtube.com##.autoplay-bar > .watch-sidebar-body > .video-list
+www.youtube.com##button[title="Subtitles/closed captions unavailable"]
+www.youtube.com###chat
+www.youtube.com###comment-teaser
+www.youtube.com###dismissable:has-text(/Latest YouTube posts/)
+www.youtube.com###donation-shelf
+www.youtube.com###scroll-container > .yt-chip-cloud-renderer
 www.youtube.com##.search-refinements
+www.youtube.com###sponsor-button
+www.youtube.com###teaser-carousel:has-text(/ask & learn/i)
+www.youtube.com###ticket-shelf
+www.youtube.com###visible-content-wrapper
+www.youtube.com###voice-search-button
+www.youtube.com###watch-checkout-offers
 www.youtube.com##.watch-sidebar-separation-line
 www.youtube.com##.ytd-brand-video-shelf-renderer.style-scope
+www.youtube.com##ytd-button-renderer:has-text(/Thanks/)
 www.youtube.com##.ytd-compact-radio-renderer
+www.youtube.com##ytd-compact-video-renderer:has(div[class="badge  badge-style-type-members-only style-scope ytd-badge-supported-renderer style-scope ytd-badge-supported-renderer"])
+www.youtube.com##ytd-compact-video-renderer:has-text(/LIVE/)
+www.youtube.com##ytd-grid-video-renderer:has(span:has-text(/SHORTS/))
+www.youtube.com##ytd-grid-video-renderer:has-text(/#shorts/i)
+www.youtube.com##ytd-guide-entry-renderer:has-text(/Shorts/)
+www.youtube.com##ytd-guide-entry-renderer:has-text(/YouTube Music/)
 www.youtube.com##.ytd-miniplayer:has-text(/Continue watching/)
+www.youtube.com##ytd-notification-renderer:has-text(/is live:/)
+www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##ytd-rich-item-renderer:has(a[title^="Mix -"])
+www.youtube.com##ytd-rich-item-renderer:has-text(/members only/i)
+www.youtube.com##ytd-rich-item-renderer:has-text(/Mix - /)
+www.youtube.com##ytd-rich-item-renderer:has-text(/My Mix/)
+www.youtube.com##ytd-rich-item-renderer:has-text(/Notify me/)
+www.youtube.com##ytd-rich-item-renderer:has-text(/Scheduled for/)
+www.youtube.com##ytd-rich-item-renderer:has-text(/YouTube Mix/)
+www.youtube.com##ytd-rich-item-renderer:has-text(/YouTube Movies/)
+www.youtube.com##.ytd-rich-section-renderer:has-text(/Playables/)
+www.youtube.com##ytd-rich-section-renderer:has-text(/Shorts/)
+www.youtube.com##ytd-rich-section-renderer:has-text(/YouTube posts/)
+www.youtube.com##ytd-shelf-renderer:has(span[id="title"]:has-text(/For you/))
+www.youtube.com##ytd-shelf-renderer:has-text(/For you/)
+www.youtube.com##ytd-shelf-renderer:has-text(/Latest from/)
+www.youtube.com##ytd-shelf-renderer:has-text(/Latest posts from/)
+www.youtube.com##ytd-shelf-renderer:has-text(/People also watched/)
+www.youtube.com##.ytd-shelf-renderer:has-text(/Previously watched/)
+www.youtube.com##yt-lockup-view-model:has(yt-badge-view-model):has-text(/Members only/i)
 www.youtube.com##.ytp-button.ytp-miniplayer-button
+www.youtube.com##.ytp-cards-button-icon-default
 www.youtube.com##.ytp-cards-teaser
 www.youtube.com##.ytp-ce-element
 www.youtube.com##.ytp-endscreen-content
+www.youtube.com##.ytp-fullerscreen-edu-button-subtle
+www.youtube.com##.ytp-fullerscreen-edu-chevron
 www.youtube.com##.ytp-next-button
 www.youtube.com##.ytp-scroll-min.ytp-pause-overlay
-www.youtube.com###comment-teaser
-www.youtube.com###dismissable:has-text(/Latest YouTube posts/)
-www.youtube.com###scroll-container > .yt-chip-cloud-renderer
-www.youtube.com###sponsor-button
-www.youtube.com###ticket-shelf
-www.youtube.com###voice-search-button
-www.youtube.com###watch-checkout-offers
-www.youtube.com##ytd-button-renderer:has-text(/Thanks/)
-www.youtube.com##ytd-grid-video-renderer:has-text(/#shorts/i)
-www.youtube.com##ytd-rich-item-renderer:has-text(/My Mix/)
-www.youtube.com##ytd-rich-item-renderer:has-text(/YouTube Mix/)
-www.youtube.com##ytd-rich-item-renderer:has-text(/YouTube Movies/)
-www.youtube.com##ytd-rich-item-renderer:has(a[title^="Mix -"])
-www.youtube.com##ytd-rich-section-renderer:has-text(/YouTube posts/)
-www.youtube.com##ytd-shelf-renderer:has-text(/For you/)
-www.youtube.com##ytd-shelf-renderer:has-text(/Latest from/)
-www.youtube.com##ytd-shelf-renderer:has-text(/People also watched/)
+www.youtube.com#@#.ytp-share-button
+www.youtube.com##.ytp-suggested-action-badge
