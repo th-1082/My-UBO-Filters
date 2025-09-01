@@ -1,5 +1,5 @@
 ! Title: AI Feature Remover
-! Description: Removes some AI features from Google, YouTube and DuckDuckGo
+! Description: Removes some AI features from some websites (WIP list)
 
 www.google.com##div[data-hveid]:has(h1:has-text(/AI Overview/))
 www.google.com##div[role="listitem"]:has-text(/AI Mode/i)
@@ -12,3 +12,7 @@ duckduckgo.com##li:has-text(/Duck.ai/)
 www.youtube.com##button:has-text(/Ask/)
 www.youtube.com###expandable-metadata:has-text(/Summary/)
 www.youtube.com##ytd-rich-section-renderer:has-text(/ask for videos/i)
+
+www.amazon.com##.nav-rufus-disco
+www.amazon.com###dpx-nice-widget-container
+www.amazon.com##.dpx-rex-nile-inline-pill-carousel
