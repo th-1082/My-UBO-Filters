@@ -59,3 +59,4 @@ www.youtube.com##.ytp-scroll-min.ytp-pause-overlay
 www.youtube.com#@#.ytp-share-button
 www.youtube.com##.ytp-suggested-action-badge
 www.youtube.com###teaser-carousel
+www.youtube.com##yt-lockup-view-model:has(div[class="yt-content-metadata-view-model__badge"]:has-text(/Try now/i))
